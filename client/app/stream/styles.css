@@ -1,0 +1,22 @@
+.video-frame {
+  width: 30rem;
+  margin: 0 auto;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+}
+
+.video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .video-frame {
+    width: 90vw;
+  }
+}

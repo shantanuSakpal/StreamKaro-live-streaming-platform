@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+    --accent-color-light: #E8467C;
+    --accent-color: #BC1948;
+    --accent-color-dark: rgb(140, 25, 63);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    color: black;
+    background: aliceblue;
+    box-sizing: border-box;
+
+}
